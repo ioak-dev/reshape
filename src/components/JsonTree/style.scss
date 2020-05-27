@@ -1,0 +1,36 @@
+.json-tree {
+}
+.json-array {
+    margin-left: 20px;
+}
+.json-string {
+    // display: inline-block;
+    margin-left: 20px;
+}
+.json-object {
+    margin-left: 20px;
+}
+
+.key-group {
+    display: flex;
+    align-items: center;
+    .material-icons {
+        user-select: none;
+        margin-left: 4px;
+        border: 1px solid var(--color-foreground-1);
+        border-radius: 4px;
+        font-size: .8em;
+        vertical-align: center;
+        cursor: pointer;
+    }
+}
+
+.key-string {
+    display: inline;
+    font-weight: bold;
+}
+
+.value-string {
+    display:  inline;
+    font-weight: lighter;
+}

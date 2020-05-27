@@ -1,0 +1,108 @@
+.json-flatten {
+    word-break: break-all;
+}
+
+.main-page {
+    padding-top: var(--height-nav);
+    min-height: 100vh;
+}
+
+.inspect-view-operation {
+    .inspect-view-action {
+        cursor: pointer;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.inspect-view {
+    background-color: var(--color-background-3);
+    max-height: 500px;
+    overflow: auto;
+    border-radius: 4px;
+}
+
+.flatten-view, .csv-view {
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 20px;
+    .flatten-view-header, .csv-view-header {
+        padding: 40px 0;
+        border-radius: 4px;
+        display: grid;
+        grid-auto-flow: row;
+        justify-content: center;
+        row-gap: 20px;
+
+        &.none {
+            visibility: hidden;
+        }
+        &.inprogress {
+            border: 2px solid var(--color-warning);
+        }
+        &.success {
+            border: 2px solid var(--color-success);
+        }
+        &.failure {
+            border: 2px solid var(--color-failure);
+        }
+
+        .micro-action-header {
+            display: grid;
+            grid-auto-flow: column;
+            justify-content: center;
+            column-gap: 20px;
+            button {
+                height: auto;
+            }
+        }
+    }
+    .flatten-view-content {
+        background-color: var(--color-background-3);
+        max-height: 500px;
+        overflow: auto;
+        border-radius: 4px;
+    }
+}
+
+.operation-switch {
+    display: flex;
+    justify-content: center;
+}
+
+.operation-progress {
+    padding: 20px;
+    border: 1px solid var(--color-foreground-3);
+    &.success {
+        border: 1px solid var(--color-success);
+    }
+    &.failure {
+        border: 1px solid var(--color-failure);
+    }
+    &.inprogress {
+        border: 1px solid var(--color-warning);
+    }
+}
+
+.operation-notification {
+    padding: 40px 0;
+    border-radius: 4px;
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: center;
+    row-gap: 20px;
+
+    &.none {
+        display: none;
+    }
+    &.inprogress {
+        border: 2px solid var(--color-warning);
+    }
+    &.success {
+        border: 2px solid var(--color-success);
+    }
+    &.failure {
+        border: 2px solid var(--color-failure);
+    }
+}

@@ -1,0 +1,28 @@
+.json-flatten {
+    background-color: var(--color-background-theme);
+    .json-flatten-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        row-gap: 20px;
+
+        .data-input {
+            display: flex;
+            flex-direction: column;
+            .browse {
+                display: flex;
+                justify-content: flex-end;
+            }
+        }
+
+        .actions {
+            display: flex;
+            justify-content: center;
+        }
+
+
+        textarea {
+            height: 300px;
+        }
+    }
+}
