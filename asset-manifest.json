@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.50bd7beb.chunk.css",
+    "main.js": "/static/js/main.45ce8820.chunk.js",
+    "main.js.map": "/static/js/main.45ce8820.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5b923dbb.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5b923dbb.js.map",
+    "static/js/2.144a3224.chunk.js": "/static/js/2.144a3224.chunk.js",
+    "static/js/2.144a3224.chunk.js.map": "/static/js/2.144a3224.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.1512bf90783d13cac9fd994ca61a887e.js": "/precache-manifest.1512bf90783d13cac9fd994ca61a887e.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.50bd7beb.chunk.css.map": "/static/css/main.50bd7beb.chunk.css.map",
+    "static/js/2.144a3224.chunk.js.LICENSE.txt": "/static/js/2.144a3224.chunk.js.LICENSE.txt",
+    "static/media/Login.scss": "/static/media/login_bg.bc9580be.jpg",
+    "static/media/reshape_black.svg": "/static/media/reshape_black.9102694d.svg",
+    "static/media/reshape_white.svg": "/static/media/reshape_white.d9be0934.svg",
+    "static/media/reshape_white_small.svg": "/static/media/reshape_white_small.7aed2e38.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5b923dbb.js",
+    "static/js/2.144a3224.chunk.js",
+    "static/css/main.50bd7beb.chunk.css",
+    "static/js/main.45ce8820.chunk.js"
+  ]
+}
